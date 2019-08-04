@@ -1,0 +1,17 @@
+Regular Conditional
+    if(obj.score >= min) {
+        obj.pass = true;
+    } else {
+        obj.pass = false;
+    }
+
+Ternary Conditional
+    obj.score >= min ? obj.pass = true : obj.pass = false;
+
+    The 1st part of the ternary is the condition itself.
+    The 2nd part following the ? is the true part.
+    The 3rd part following the : is the else part.
+
+    In order to make this even shorter/cleaner, we can do this also:
+
+    obj.pass = obj.score >= min ? true : false;

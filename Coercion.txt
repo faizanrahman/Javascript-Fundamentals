@@ -1,11 +1,11 @@
-// What is coercion?
-// Coercion means to force. In most languages, the statement below will cause an error, but not in javascript. 
-// Ex) 25 + true
+What is coercion?
+Coercion means to force. In most languages, the statement below will cause an error, but not in javascript. 
+Ex) 25 + true
 // The above statement will result in 26. 
 
-// -, *, /, % operators convert to numbers. 
-// + is different, because it can be used to add numbers or concenate a string, it doesn't automatically convert
-// to a number. It's first priority is to convert into a string.
+-, *, /, % operators convert to numbers. 
++ is different, because it can be used to add numbers or concenate a string, it doesn't automatically convert
+to a number. It's first priority is to convert into a string.
 
 // Ex) 5 + "1" = "51" => Concatenates the 5 with 1, as a string.
 
